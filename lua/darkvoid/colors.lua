@@ -96,10 +96,10 @@ function M.setup(user_config)
 		Boolean = { fg = colors.bool },
 		Constant = { fg = colors.constant },
 
-		Search = { fg = colors.search_highlight, bg = "NONE", },
-		IncSearch = { fg = colors.fg, bg = colors.search_highlight, },
-		CurSearch = { fg = colors.fg, bg = colors.search_highlight, gui = "bold" },
-		Substitute = { fg = colors.fg, bg = colors.search_highlight, gui = "bold" },
+		Search = { fg = colors.search_highlight, bg = "NONE", gui = "bold", },
+		IncSearch = { fg = colors.bg, bg = colors.search_highlight, },
+		CurSearch = { fg = colors.bg, bg = colors.search_highlight, gui = "bold" },
+		Substitute = { fg = colors.bg, bg = colors.search_highlight, gui = "bold" },
 		Operator = { fg = colors.operator },
 		Delimiter = { fg = colors.bracket },
 
